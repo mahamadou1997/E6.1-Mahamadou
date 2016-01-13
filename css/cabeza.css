@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+}
+
+header {
+	height: 50px;
+	background: #000000;
+	width: 100%;
+	z-index: 10;
+}

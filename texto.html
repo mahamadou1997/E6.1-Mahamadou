@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html 
+<head>
+<title>ETIQUETA TEXTO</title></font>
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/cabeza.css">
+   	<script>
+        function mostrar(id)
+        {
+            var objeto=document.getElementById(id)
+            if(objeto.style.display=="block")
+                objeto.style.display="none";
+            else
+                objeto.style.display="block";
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+
+</head>
+
+<body background="imagenes/cot.jpg">
+
+<form>
+    <input type="button" onclick="mostrar('contenido1')" value="<strong>">
+    <input type="button" onclick="mostrar('contenido2')" value="<i>">
+     <input type="button" onclick="mostrar('contenido3')" value="<tt>">
+      <input type="button" onclick="mostrar('contenido4')" value="<big>">
+       <input type="button" onclick="mostrar('contenido5')" value="<small>">
+        <input type="button" onclick="mostrar('contenido6')" value="<strike>">
+         <input type="button" onclick="mostrar('contenido7')" value="align">
+          <input type="button" onclick="mostrar('contenido8')" value=" <!--">
+           <input type="button" onclick="mostrar('contenido9')" value="<h1>">
+            <input type="button" onclick="mostrar('contenido10')" value="<u>">
+
+    <img src="imagenes/1.png" class="oculto" id="contenido1">
+    <img src="imagenes/2.png" class="oculto" id="contenido2">
+    <img src="imagenes/3.png" class="oculto" id="contenido3">
+    <img src="imagenes/4.png" class="oculto" id="contenido4">
+    <img src="imagenes/5.png" class="oculto" id="contenido5">
+    <img src="imagenes/6.png" class="oculto" id="contenido6">
+    <img src="imagenes/7.png" class="oculto" id="contenido7">
+    <img src="imagenes/8.png" class="oculto" id="contenido8">
+    <img src="imagenes/9.png" class="oculto" id="contenido9">
+    <img src="imagenes/10.png" class="oculto" id="contenido10">
+
+</form>
+ </div>
+
+ <div id="menu">
+ <ul>
+
+<li><a href="index.html">ETIQUETAS HTML</a></li>  
+ 	<li><a href="texto.html"> <font color="black">Etiqueta Texto</font></a></li>
+			<li><a href="listado.html"> <font color="black">Etiqueta Listado</font></a></li>
+			<li><a href="imagenes.html"> <font color="black">Etiqueta Imagenes</font></a></li>
+			<li><a href="enlaces.html"> <font color="black">Etiqueta Enlaces</font></a></li>
+			<li><a href="citas.html"> <font color="black">Etiqueta Citas</font></a></li>
+        <li><a href="table.html"> <font color="black">Tabla</font></a></li>
+ </ul>
+ </div> 
+
+
+</body>
+</html>
+
